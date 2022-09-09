@@ -1,4 +1,12 @@
-top {
-    background: #cccccc
+body{
+    background: #fefefe;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.top{
+    background: #cccccc;
     text-align: center;
+    margin: 50px 0px;
+    border: 3px solid #acacac;
 }
