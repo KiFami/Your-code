@@ -1,0 +1,50 @@
+body {
+    background-image: url("https://wallpaper.dog/large/20459081.jpg");
+    font-size: 20px;
+}
+input[type=text],
+input[type=password] 
+{
+    width: 300px;
+    background-color: #efefef;
+    color: #666;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+input[type=submit]
+{
+    width: 300px;
+    background-color: rgb(103, 0, 247);
+    font-size: 20px;
+    color:white;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+#container {
+    background-color: white;
+    width: 300px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 24px 0px rgba(66, 68, 90, 1);
+}
+input[type=submit]:focus
+{
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 24px 0px rgba(66, 68, 90, 1);
+}
+input[type=submit]:hover
+{
+    background-color: rgb(109, 5, 255) ;
+}
